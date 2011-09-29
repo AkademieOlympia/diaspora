@@ -126,6 +126,8 @@ group :test do
   gem 'rspec-rails', '>= 2.0.0'
   gem 'selenium-webdriver', '2.4'
   gem 'webmock', :require => false
+
+  gem 'mock_redis'
 end
 
 group :development do
